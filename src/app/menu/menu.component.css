@@ -15,3 +15,7 @@
 .padding-10 {
   padding: 10px;
 }
+
+mat-icon {
+  vertical-align: middle;
+}

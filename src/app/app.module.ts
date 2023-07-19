@@ -21,6 +21,8 @@ import { UsuariosComponent } from './modulos/usuarios/usuarios/usuarios.componen
 import { PedidosComponent } from './modulos/pedidos/pedidos/pedidos.component';
 import { FinanzasComponent } from './modulos/finanzas/finanzas/finanzas.component';
 import { AgregarComponent } from './modulos/inventario/agregar/agregar.component';
+import { LoginComponent } from './modulos/login/login/login.component';
+import { RegistrarseComponent } from './modulos/login/registrarse/registrarse.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { AgregarComponent } from './modulos/inventario/agregar/agregar.component
     UsuariosComponent,
     PedidosComponent,
     FinanzasComponent,
-    AgregarComponent
+    AgregarComponent,
+    LoginComponent,
+    RegistrarseComponent
   ],
   imports: [
     BrowserModule,
